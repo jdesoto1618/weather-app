@@ -1,6 +1,7 @@
 import './App.css';
 import Search from './components/search/Search';
 import Location from './components/location/Location';
+import Temp from './components/temperature/Temperature';
 
 const api = {
   key: "48dd64b94b33bf63268037d5037ac034",
@@ -13,6 +14,7 @@ const App = () => {
       <main className="main">
         <Search apiInfo={api}/>
         <Location />
+        <Temp />
       </main>
     </div>
   );
