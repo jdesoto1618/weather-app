@@ -1,0 +1,22 @@
+.app-container {
+  background-image: url('./images/early-morning.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 0.3s linear;
+}
+
+.app-container.warm {
+  background-image: url('./images/sunset.jpg');
+}
+
+.main {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
+  min-height: 100vh;
+  padding: 3rem;
+}
+
+@media screen and (min-width: 64em) {
+  .main {
+    padding: 5rem;
+  }
+}
