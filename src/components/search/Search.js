@@ -1,6 +1,6 @@
 import './search.css';
 
-const Search = ({ apiInfo }) => {
+const Search = ({ query, setQuery, search }) => {
   return (
     <div className='conponent-container search-container'>
       <div className='search-box'>
@@ -8,6 +8,9 @@ const Search = ({ apiInfo }) => {
           type='text'
           className='search-bar'
           placeholder='Search...'
+          onChange={e => setQuery(e.target.value)}
+          value={query}
+          onKeyPress={search}
         />
       </div>
     </div>
