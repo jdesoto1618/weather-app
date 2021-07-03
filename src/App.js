@@ -6,7 +6,7 @@ import Location from './components/location/Location';
 import Temp from './components/temperature/Temperature';
 
 const api = {
-  key: "2dc271e759f7ca860fce398de751c699",
+  key: "",
   base: "api.openweathermap.org/data/2.5/"
 }
 
