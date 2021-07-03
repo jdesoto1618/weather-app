@@ -16,6 +16,10 @@
   padding: 3rem;
 }
 
+.component-container {
+  color: white;
+}
+
 @media screen and (min-width: 64em) {
   .main {
     padding: 0 5rem;
